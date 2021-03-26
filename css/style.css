@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+@font-face {
+	font-family: 'Harry P';
+	src: url('../fonts/Harry P.TTF');
+}
+*{
+	box-sizing: border-box;
+}
+body{
+	margin:0;
+	padding:0;
+}
+html{
+	font-size: 12px;
+	font-family: 'Quicksand', sans-serif;
+
+}
+
+#title{
+	font-family: Harry P;
+	letter-spacing: 15px;
+}
+
+#titleDetail{
+	font-family: Harry P;
+	letter-spacing: 12px;
+	font-size: 19px;
+}
+
+header{
+	border:1px solid;
+	width: 100%;
+	height: 73rem;
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#hizala{
+	width: 80%;
+	margin: auto;
+	height: auto;
+	margin-top: 2rem;
+}
+#hizala h1,h3{
+	color:white;
+	text-align:center;
+}
+#headerSearch{
+	width: 88%;
+	height: auto;
+	margin:auto;
+	background-color:white;
+	border-radius: 5px;
+	opacity: 0.9;
+	padding: 1.5rem 2rem;
+	margin-top: 3rem;
+	margin-bottom: 5rem;
+}
+#headerSearch button{
+	font-family: Harry P;
+}
+#headerSearch:hover{
+	width: 88%;
+	height: auto;
+	margin:auto;
+	background-color: white;
+	border-radius: 5px;
+	opacity: 1;
+	padding: 1.5rem 2rem;
+	margin-top: 3rem;
+	margin-bottom: 5rem;
+}
+form input{
+	width: 100%;
+	height: 2.5rem;
+	margin-bottom: 1rem;
+	text-indent: 1.5rem;
+	padding:0 0.2rem;
+	background-color: black;
+	opacity: 0.4;
+	color:white;
+	
+}
+.iconHeader::placeholder{
+	background-image: url(../img/placeholder.png);
+	width: 16px;
+	height: 1.3rem;
+	background-repeat: no-repeat;	
+	z-index: -1;
+}
+form button{
+	width: 100%;
+	display: block;
+	margin:auto;
+	height:2rem;
+	background-color: orange;
+	opacity: 1;
+	border:none;
+	color: white;
+	font-size: 1.2rem;
+	border-radius: 1rem;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	letter-spacing: 6px;
+	font-size: 19px;
+
+}
+
+form button:hover{
+	background-color: orange;
+	color:black;
+	opacity: 0.6;
+}
+.box{
+	width: 100%;
+	height: 8rem;
+	margin-bottom: 1rem;
+	border:1px black solid;
+	background-image: url("../img/back.png");
+	margin: 0 5px 0 5px;
+}
+.boxInfo{
+	margin-top: 1.5rem;
+}
+.boxInfo a{
+	font-size: x-large;
+	color: white;
+	text-decoration: none;
+	font-family: Harry P;
+}
+.boxInfo a:hover{
+	font-size: x-large;
+	color: white;
+	opacity: 0.8;
+	text-decoration: none;
+	color: orange;
+}
+.boxPencere{
+	width: 7rem;
+	height: 7rem;
+	border-radius: 50%;
+	padding-top: 0.7rem;
+	float:left;
+}
+
+.boxIconOne{
+	background-image: url(../img/kitap.png);
+	width: 7em;
+	height: 6rem;
+	background-size: cover;
+	margin:auto;
+}
+.boxIconTwo{
+	background-image: url(../img/film.jpeg);
+	width: 5.8em;
+	height: 5.6rem;
+	background-size: cover;
+	margin: auto;
+}
+
+.boxIconThree{
+	background-image: url(../img/oyun.jpg);
+	width: 5em;
+	height: 5rem;
+	background-size: cover;
+	background-position: center;
+	margin:auto;
+}
+
+.boxIconFour{
+	background-image: url(../img/spell.png);
+	width: 5em;
+	height: 5rem;
+	background-size: cover;
+	background-position: center;
+	margin:auto;
+}
+
+.boxInfo{
+	width: 65%;
+	height: 7rem;
+	float: left;
+	color: white;
+	margin-left: 2rem;
+}
+.boxInfo h2,p{
+	color:white;
+}
+main{
+	width: 100%;
+	height: auto;
+}
+main h1{
+	text-align: center;
+}
+@media screen and (min-width:800px){
+	html{
+		font-size: 15px;
+	}
+	#headerSearch{
+		width:65%;
+	}
+	#headerSearch:hover{
+		width:65%;
+	}
+	.box{
+		width:65%;
+		margin: auto;
+	}
+	#hizalaFooter{
+		width: 62%;
+	}
+}
+@media screen and (min-width:1200px){
+	html{
+		font-size: 20px;
+	}
+	#headerSearch{
+		width: 60%;
+	}
+	#headerSearch:hover{
+		width: 60%;
+	}
+	.box{
+		width: 50%;
+		float: left;
+		margin-top: 1.5rem;
+	}
+	main{
+		padding: 2rem 0;
+		margin-bottom: 1rem;
+		height: 55rem;
+	}
+	header{
+		height: 55rem;
+	}
+	footer{
+		clear: both;
+		height: 18rem;
+		margin-top: 1rem;
+	}
+	#hizalaFooter{
+		width: 100%;	
+	}
+	.ulinfo li{
+		padding:2rem 1.5rem;
+	}
+	 #footerInfo{
+	 	width: 33%;
+	 	float: left;
+	 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

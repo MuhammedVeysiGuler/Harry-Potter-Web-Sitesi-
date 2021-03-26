@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+@font-face { font-family: 'Harry P';
+            src: url('../fonts/Harry P.TTF');
+          }
+
+html{
+  background-color: #262626  ;
+}
+.textOverImage{
+    position: relative;
+    width:300px;
+    height:300px;
+    float:left;
+    margin:4px;
+    background-size:100%;
+    background-position:center;
+    transition:0.5s;
+    text-align: center;
+    color: #C0C9BB;
+    border-color: #160221   ;
+    border-style: solid;
+    border-width: thin;
+  }
+  .textOverImage p{
+    text-align: center;
+    margin-top: 120px;
+    color: #C0C9BB ;
+    font-size: 1.3em;
+    font-weight:bold;
+    font-family: 'Harry P';
+  }
+  .textOverImage:after{
+    position:absolute;
+    top:50%;
+    bottom:0;
+    left:0;
+    right:0;
+    white-space:pre-wrap;
+    overflow:hidden;
+    background-color: #160221 ;
+    padding:0 8px;
+    opacity:0;
+    content:attr(data-text);
+    transition:0.5s;
+    color: #C0C9BB;
+    font-size:25px;
+  }
+  .textOverImage:hover:after{
+    opacity:0.9;
+    top:0;
+    padding:8px;
+  }
+  
+  .textOverImage:first-line{
+    color:#C0C9BB ;
+    font-weight:bold;
+    font-size:1.5em;
+
+  }
+  .box {
+    flex-direction: row;
+    float: left;
+    background-color: #160221;
+    width: auto;
+    height: auto;
+}
+html{
+  width: auto;
+  height: auto;
+}
+.box :first-child {
+    align-self: center;
+}
+.hizalama{
+  margin-left: 16px
+}
